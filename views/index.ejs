@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= name %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Welcome, <%= name %></h1>
+    <form action="/logout?_method=DELETE" method="POST">
+      <button type="submit">Logout</button>
+    
+    </form>
+  </body>
+</html>
